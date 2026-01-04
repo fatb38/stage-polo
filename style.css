@@ -100,7 +100,11 @@ h1 {
 }
 
 #apprentissage img {
-  width: 400px;
+  width: 340px;
+
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
 }
 
 /********************************************/
